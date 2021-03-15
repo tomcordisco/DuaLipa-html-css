@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(255, 204, 255); 
+	color: rgb(0, 0, 0);
+	font-family: "Verdana";
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+
+	grid-template-areas: "header      header      header"
+						 "widget-1    widget-2    widget-3"
+						 "widget-4    widget-5    widget-6"
+                         "widget-7    widget-8    widget-9"
+						 "footer      footer      footer";
+}
+
+.contenedor > div,
+.contenedor .contenido,
+.contenedor .sidebar {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.contenedor .header {
+	background: rgb(255, 102, 102);
+	box-shadow: 3px 3px 3px rgb(255, 33, 102);
+	padding: 5px;
+	border-radius: 5px;
+	grid-area: header;
+}
+
+.contenedor .header {
+	background: rgb(255, 102, 102);
+	box-shadow: 3px 3px 3px rgb(255, 33, 102);
+	padding: 5px;
+	border-radius: 5px;
+	grid-area: header;
+}
+
+.header .menu,
+li {
+	padding: 0px 20px;
+	display: block;
+	list-style: none; /*Quita el estilo de cada elemento (los items del comienzo)*/
+	float: left;
+}
+
+a {
+	color: white;
+	text-decoration: none; /*Quita el subrayado de cada elemento*/
+}
+
+a:hover {
+	background: rgb(255, 153, 102);
+	color: black;
+	box-shadow: 5px 5px 5px rgb(255, 33, 102);
+	padding: 5px 5px;
+	border-radius: 3px;
+}
+
+a:active {
+	background: rgb(255, 153, 102);
+	color: rgb(255, 255, 255);
+	box-shadow: 5px 5px 5px rgb(255, 33, 102);
+	padding: 5px 5px;
+	border-radius: 3px;
+}
+
+.contenedor .contenido{
+	background: rgb(255, 153, 102);
+	grid-area: contenido;
+}
+
+.widget-1 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-1;
+}
+
+.widget-2 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-2;
+
+}
+
+.widget-3 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-3;
+}
+
+.widget-4 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-4;
+}
+
+.widget-5 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-5;
+}
+
+.widget-6 {    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-6;
+}
+
+.widget-7 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-7;
+}
+
+.widget-8 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-8;
+}
+
+.widget-9 {
+    background: rgb(241, 202, 116);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: widget-9;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+}
+
+div .portadas{
+    width: 220px;
+	height: auto;
+    display:block;
+    margin:auto;
+    padding: 5px;
+}
+
+p{
+    text-align: center;
+	font-size: 14px;
+}
+
+.footer {
+    background: rgb(255, 102, 102);
+	box-shadow: 3px 3px 3px rgb(255, 33, 102);
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	grid-area: footer;
+}
