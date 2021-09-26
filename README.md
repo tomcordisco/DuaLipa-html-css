@@ -1,12 +1,11 @@
-ENGLISH BELLOW
---------------------------------------------------------
+
 Es una página con información de la cantante Dua Lipa. 
 Se usan diferentes herramientas de HTML Y CSS.
 --------------------------------------------------------
 It is a page about the artist Dua Lipa. To created it I
 use HTML and CSS.
 --------------------------------------------------------
-PREVIEW:
+Preview:
 --------------------------------------------------------
 ![Dua Lipa html](https://user-images.githubusercontent.com/58890694/134519178-1a053e9a-5b09-48d5-a43f-e4410b0a49fa.png)
 ![Dua Lipa html 2](https://user-images.githubusercontent.com/58890694/134519172-bbdc40f0-3381-4d2d-9751-6977309dfb18.png)
